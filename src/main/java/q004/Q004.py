@@ -19,8 +19,8 @@ from ListManager import ListManager
 
 #
 def sort(dataList: list):
-    for num1 in range(len(dataList)):
-        for num2 in range(len(dataList) - 1):
+    for num1 in range(lm.size()):
+        for num2 in range(lm.size() - 1):
             if lm.compare(num2, num1) >= 0:
                 lm.exchange(num2, num1)
             else:
