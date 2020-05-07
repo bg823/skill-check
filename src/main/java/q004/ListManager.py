@@ -5,9 +5,9 @@ import numpy as np
 
 # ListManager class
 class ListManager:
-    dataList = []
-    compareCount = 0
-    exchangeCount = 0
+    __dataList = []
+    __compareCount = 0
+    __exchangeCount = 0
 
     def __init__(self):
         # 100のデータ要素が入るlist
