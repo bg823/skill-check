@@ -14,11 +14,11 @@ import numpy as np
 # 一行目読まない感じであれば、先頭にラベルをつけて集計
 class WorkData:
 
-    __number = ''  # 社員番号
-    __department = ''  # 部署
-    __position = ''  # 役職
-    __pCode = ''  # pCode
-    __workTime = 0  # 作業時間
+    _number = ''  # 社員番号
+    _department = ''  # 部署
+    _position = ''  # 役職
+    _pCode = ''  # pCode
+    _workTime = 0  # 作業時間
 
     # 社員番号で作業時間をまとめる
     def worker_num(self, data_list) -> dict:
